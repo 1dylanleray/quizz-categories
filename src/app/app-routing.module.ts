@@ -14,7 +14,10 @@ const routes: Routes = [
   {
     path: 'quiz/:playerName',
     component : QuizComponent
+
   },
+  { path: 'quiz/:categoryId',
+    component: QuizComponent },
   {
     path: 'result',
     component : ResultComponent
