@@ -1,4 +1,102 @@
 {
+  "categories": [
+    {"football": {
+      "questions": [
+        {
+          "id": 1,
+          "questionLabel": "Quelle équipe a remporté la Coupe du Monde de la FIFA 2018 ?"
+        },
+        {
+          "id": 2,
+          "questionLabel": "Quel joueur détient le record du plus grand nombre de Ballons d'Or ?"
+        },
+        {
+          "id": 3,
+          "questionLabel": "Dans quel club européen Kylian Mbappé a-t-il débuté sa carrière professionnelle ?"
+        }
+      ],
+      "answers": [
+    {
+      "questionId": 1,
+      "answerLabel": "Brésil",
+      "isCorrect": false
+    },
+    {
+      "questionId": 1,
+      "answerLabel": "France",
+      "isCorrect": true
+    },
+    {
+      "questionId": 2,
+      "answerLabel": "Lionel Messi",
+      "isCorrect": true
+    },
+    {
+      "questionId": 2,
+      "answerLabel": "Pelé",
+      "isCorrect": false
+    },
+    {
+      "questionId": 3,
+      "answerLabel": "Monaco",
+      "isCorrect": true
+    },
+    {
+      "questionId": 3,
+      "answerLabel": "PSG",
+      "isCorrect": false
+    }
+    ]}}
+  
+  ],"basketball":{
+    "questions": [
+      {
+        "id": 1,
+        "questionLabel": "Quel joueur détient le record de points en carrière en NBA ?"
+      },
+      {
+        "id": 2,
+        "questionLabel": "Quel joueur a gagné le plus de titres de MVP des Finales NBA ?"
+      },
+      {
+        "id": 3,
+        "questionLabel": "Qui est le G.O.A.T?"
+      }
+    ],
+    "answers": [
+  {
+    "questionId": 1,
+    "answerLabel": "Kareem Abdul-Jabbar",
+    "isCorrect": false
+  },
+  {
+    "questionId": 1,
+    "answerLabel": "LeBron James",
+    "isCorrect": true
+  },
+  {
+    "questionId": 2,
+    "answerLabel": "Michael Jordan",
+    "isCorrect": true
+  },
+  {
+    "questionId": 2,
+    "answerLabel": "Tim Duncan",
+    "isCorrect": false
+  },
+  {
+    "questionId": 3,
+    "answerLabel": "Kobe Bryant",
+    "isCorrect": false
+  },
+  {
+    "questionId": 3,
+    "answerLabel": "Michael Jordan",
+    "isCorrect": true
+  }
+
+  ],
+
   "questions": [
     {
       "id": 1,
@@ -500,4 +598,4 @@
       "id": 3
     }
   ]
-}
+  }}
