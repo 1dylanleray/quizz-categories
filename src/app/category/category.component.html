@@ -1,1 +1,15 @@
-<p>category works!</p>
+
+
+  <section class="category">
+    <h2 class="category_title">Choisis ta catégorie !</h2>
+    <p class="home_presentation">thème :  Sport</p>
+    <ul class="category_container">
+        <li *ngFor="let category of categoryContent; let i = index">
+          <button
+          >
+            <span> {{ category }}</span></button>
+        </li>
+      </ul>
+   
+  </section>
+  

@@ -500,7 +500,8 @@
     }
   ],
   "categories": [
-    {"football": {
+    {"categoryId":1,
+      "football": {
       "questions": [
         {
           "id": 1,
@@ -546,9 +547,10 @@
       "answerLabel": "PSG",
       "isCorrect": false
     }
-    ]}}
-  
-  ],"basketball":{
+    ]}},
+    {
+      "categoryId":2,
+    "basketball":{
     "questions": [
       {
         "id": 1,
@@ -593,6 +595,5 @@
     "questionId": 3,
     "answerLabel": "Michael Jordan",
     "isCorrect": true
-  }
-    ]
-  }}
+  }]
+  }}]}
